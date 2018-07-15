@@ -12,6 +12,10 @@
 		2E437CD020FB1DED003ECCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CCE20FB1DED003ECCBE /* Main.storyboard */; };
 		2E437CD220FB1DEE003ECCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CD120FB1DEE003ECCBE /* Assets.xcassets */; };
 		2E437CD520FB1DEE003ECCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CD320FB1DEE003ECCBE /* LaunchScreen.storyboard */; };
+		2E437CDF20FB1EE5003ECCBE /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CDC20FB1EE5003ECCBE /* cat.jpg */; };
+		2E437CE020FB1EE5003ECCBE /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CDD20FB1EE5003ECCBE /* dog.jpg */; };
+		2E437CE120FB1EE5003ECCBE /* fox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E437CDE20FB1EE5003ECCBE /* fox.jpg */; };
+		2E437CE320FB38BD003ECCBE /* bigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E437CE220FB38BD003ECCBE /* bigImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2E437CD120FB1DEE003ECCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E437CD420FB1DEE003ECCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E437CD620FB1DEE003ECCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E437CDC20FB1EE5003ECCBE /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		2E437CDD20FB1EE5003ECCBE /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		2E437CDE20FB1EE5003ECCBE /* fox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fox.jpg; sourceTree = "<group>"; };
+		2E437CE220FB38BD003ECCBE /* bigImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				2E437CD120FB1DEE003ECCBE /* Assets.xcassets */,
 				2E437CD320FB1DEE003ECCBE /* LaunchScreen.storyboard */,
 				2E437CD620FB1DEE003ECCBE /* Info.plist */,
+				2E437CDC20FB1EE5003ECCBE /* cat.jpg */,
+				2E437CDD20FB1EE5003ECCBE /* dog.jpg */,
+				2E437CDE20FB1EE5003ECCBE /* fox.jpg */,
+				2E437CE220FB38BD003ECCBE /* bigImageViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -123,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E437CD520FB1DEE003ECCBE /* LaunchScreen.storyboard in Resources */,
+				2E437CE020FB1EE5003ECCBE /* dog.jpg in Resources */,
 				2E437CD220FB1DEE003ECCBE /* Assets.xcassets in Resources */,
+				2E437CE120FB1EE5003ECCBE /* fox.jpg in Resources */,
+				2E437CDF20FB1EE5003ECCBE /* cat.jpg in Resources */,
 				2E437CD020FB1DED003ECCBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E437CCD20FB1DED003ECCBE /* ViewController.swift in Sources */,
+				2E437CE320FB38BD003ECCBE /* bigImageViewController.swift in Sources */,
 				2E437CCB20FB1DED003ECCBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
